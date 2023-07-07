@@ -1,0 +1,5 @@
+string1*‘I'm Steven and I'm ready to do this.’
+string2*'Maybe I shouldn't drink this'
+string3*'There is nothing there.'
+string4*‘A tablet that has a recipe for chili??’
+string5*‘I can't read upside down’
