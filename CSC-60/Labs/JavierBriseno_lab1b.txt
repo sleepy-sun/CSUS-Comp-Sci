@@ -1,0 +1,16 @@
+Script started on Thu 17 Feb 2022 07:58:31 PM PST
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[?1034h[javierbriseno@ecs-pa-coding1 lab1b]$ gcc lb[Kab1b.c
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ .a/a.out[C[1P/a.out[C[C[C[C[C[C
+
+Lab 1b. 
+
+Hello World.
+Hi, Javier Briseno. 
+
+Life just kind of is what it is and thats okay. 
+ - Geoff Ramsay 
+
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ exit
+exit
+
+Script done on Thu 17 Feb 2022 07:59:12 PM PST

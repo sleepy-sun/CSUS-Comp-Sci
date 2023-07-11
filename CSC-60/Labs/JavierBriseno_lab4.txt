@@ -1,0 +1,19 @@
+Script started on Sun 20 Mar 2022 09:00:50 PM PDT
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab4[?1034h[javierbriseno@ecs-pa-coding1 lab4]$ gcc lab4.c -lm
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab4[javierbriseno@ecs-pa-coding1 lab4]$ ./a.out
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab4[javierbriseno@ecs-pa-coding1 lab4]$ cat lab4.txt
+
+Javier Briseno.  Lab 4.
+Area & Volume of Cylinders
+
+ Radius    Height      Area      Volume 
+ ------    ------    -------    -------- 
+    3.0       4.0    28.274    113.097 
+    5.0      14.2    78.540   1115.265 
+   10.0       2.0   314.159    628.319 
+    9.0      10.0   254.469   2544.690 
+
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab4[javierbriseno@ecs-pa-coding1 lab4]$ exit
+exit
+
+Script done on Sun 20 Mar 2022 09:01:45 PM PDT

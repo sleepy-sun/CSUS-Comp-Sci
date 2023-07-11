@@ -1,0 +1,53 @@
+Script started on Sat 30 Apr 2022 10:44:32 PM PDT
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab9[?1034h[javierbriseno@ecs-pa-coding1 lab9]$ touch lab9_19[K0.h
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab9[javierbriseno@ecs-pa-coding1 lab9]$ make
+gcc -c lab9.c -lm
+gcc -c ParseCmd.c -lm
+gcc -o lab9 lab9.o ParseCmd.o -lm
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab9[javierbriseno@ecs-pa-coding1 lab9]$ lab9
+bash: lab9: command not found
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab9[javierbriseno@ecs-pa-coding1 lab9]$ lab9maketouch lab9_10.h[9Plogoutalpinescript JavierBriseno_lab5.txtclear[Kat lab5.txt[6P./lab5a5[1P5cat lab5.txt[7Plearscript JavierBriseno_lab5.txtclear[Kat lab5.txt[6P./lab5[C[K9
+
+csc60msh> 
+Argc = 0 
+
+csc60msh>  
+Argc = 0 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/javierbriseno/csc60/lab9
+csc60msh> cd ..
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = .. 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/javierbriseno/csc60
+csc60msh> cd lab9
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = lab9 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/javierbriseno/csc60/lab9
+csc60msh> cd
+Argc = 1 
+Argv 0 = cd 
+
+csc60msh> pwd
+Argc = 1 
+Argv 0 = pwd 
+/home/student/javierbriseno
+csc60msh> exit
+Argc = 1 
+Argv 0 = exit 
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab9[javierbriseno@ecs-pa-coding1 lab9]$ exit
+exit
+
+Script done on Sat 30 Apr 2022 10:46:09 PM PDT

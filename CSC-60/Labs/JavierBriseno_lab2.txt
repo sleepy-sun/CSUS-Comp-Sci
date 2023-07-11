@@ -1,0 +1,207 @@
+Script started on Fri 25 Feb 2022 07:08:57 PM PST
+]0;javierbriseno@ecs-pa-coding1:~[?1034h[javierbriseno@ecs-pa-coding1 ~]$ history -c
+]0;javierbriseno@ecs-pa-coding1:~[javierbriseno@ecs-pa-coding1 ~]$ cd csc60
+]0;javierbriseno@ecs-pa-coding1:~/csc60[javierbriseno@ecs-pa-coding1 csc60]$ mkdir lab2
+]0;javierbriseno@ecs-pa-coding1:~/csc60[javierbriseno@ecs-pa-coding1 csc60]$ cd lab2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ pwd
+/home/student/javierbriseno/csc60/lab2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ mi[Kkdir aaa
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ cd aaa
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ pwd
+/home/student/javierbriseno/csc60/lab2/aaa
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cd ..
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ pwd
+/home/student/javierbriseno/csc60/lab2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ ls > filr[Ke1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ cat file1
+aaa
+file1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ less file1
+[?1049h[?1h=aaa
+file1
+[7mfile1 (END)[27m[K[K[?1l>[?1049l]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ file *
+aaa:   directory
+file1: ASCII text
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ wc file1
+ 2  2 10 file1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ wc *
+wc: aaa: Is a directory
+      0       0       0 aaa
+      2       2      10 file1
+      2       2      10 total
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ grep lab file1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ cp file1 file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ ls
+[0m[38;5;27maaa[0m  file1  file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ cd aaa
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cp ../file1 .
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ls
+file1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ mv file1 file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ls
+file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ mv ../file1.[K .
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cd ..
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ ls
+[0m[38;5;27maaa[0m  file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2[javierbriseno@ecs-pa-coding1 lab2]$ cd aaa
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ls
+file1  file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cmp file1 file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ls > aaalist
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cmp file1 aaalist
+file1 aaalist differ: byte 4, line 1
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ diff file1 aaalist
+1c1
+< aaa
+---
+> aaalist
+2a3
+> file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ rm -i file1
+rm: remove regular file ‘file1’? y
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ls
+aaalist  file2
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+javierb+  4427  0.0  0.0 126252  2100 pts/19   Ss   19:07   0:00 -bash
+javierb+  4524  0.0  0.0 114296   824 pts/19   S+   19:08   0:00 script JavierBriseno_lab2.txt
+javierb+  4526  0.0  0.0 114304   400 pts/19   S+   19:08   0:00 script JavierBriseno_lab2.txt
+javierb+  4527  0.0  0.0 126372  2172 pts/21   Ss   19:08   0:00 bash -i
+javierb+  5080  0.0  0.0 166156  2032 pts/21   R+   19:14   0:00 ps u
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 85178569 4527 4526  0 80   0 - 31593 do_wai pts/21   00:00:00 bash
+0 R 85178569 5099 4527  0 80   0 - 38332 -      pts/21   00:00:00 ps
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ !!
+ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 85178569 4527 4526  0 80   0 - 31593 do_wai pts/21   00:00:00 bash
+0 R 85178569 5106 4527  0 80   0 - 38332 -      pts/21   00:00:00 ps
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab2/aaa[javierbriseno@ecs-pa-coding1 aaa]$ cd ../..
+]0;javierbriseno@ecs-pa-coding1:~/csc60[javierbriseno@ecs-pa-coding1 csc60]$ pwd
+/home/student/javierbriseno/csc60
+]0;javierbriseno@ecs-pa-coding1:~/csc60[javierbriseno@ecs-pa-coding1 csc60]$ cd lab1b
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ head lab1b.c
+/*----------------*/
+/* Javier Briseno */
+/* Lab 1b         */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    printf("\nLab 1b. \n\n");
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ head -20 lab1b.c
+/*----------------*/
+/* Javier Briseno */
+/* Lab 1b         */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    printf("\nLab 1b. \n\n");
+    printf("Hello World.\n");
+    printf("Hi, Javier Briseno. \n\n");
+    printf("Life just kind of is what it is and thats okay. \n");
+    printf(" - Geoff Ramsay \n\n");
+
+    return EXIT_SUCCESS;
+}
+/*---------------*/
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ q
+bash: q: command not found
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ tail lab1b.c
+{
+    printf("\nLab 1b. \n\n");
+    printf("Hello World.\n");
+    printf("Hi, Javier Briseno. \n\n");
+    printf("Life just kind of is what it is and thats okay. \n");
+    printf(" - Geoff Ramsay \n\n");
+
+    return EXIT_SUCCESS;
+}
+/*---------------*/
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ tail -29[K0 lab1b.c
+/*----------------*/
+/* Javier Briseno */
+/* Lab 1b         */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+    printf("\nLab 1b. \n\n");
+    printf("Hello World.\n");
+    printf("Hi, Javier Briseno. \n\n");
+    printf("Life just kind of is what it is and thats okay. \n");
+    printf(" - Geoff Ramsay \n\n");
+
+    return EXIT_SUCCESS;
+}
+/*---------------*/
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ q
+bash: q: command not found
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ ls -al | less
+[?1049h[?1h=total 28
+drwxr-xr-x 2 javierbriseno domain users 4096 Feb 17 19:58 .
+drwxr-xr-x 4 javierbriseno domain users 4096 Feb 25 19:09 ..
+-rwxr-xr-x 1 javierbriseno domain users 8360 Feb 17 19:58 a.out
+-rw-r--r-- 1 javierbriseno domain users  568 Feb 17 19:59 JavierBriseno_lab1b.txt
+-rw-r--r-- 1 javierbriseno domain users  372 Feb 17 19:57 lab1b.c
+[7m(END)[27m[K[K[?1l>[?1049l]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ history
+    1  2022-02-25 19:09:15 cd csc60
+    2  2022-02-25 19:09:21 mkdir lab2
+    3  2022-02-25 19:09:26 cd lab2
+    4  2022-02-25 19:09:30 pwd
+    5  2022-02-25 19:09:38 mkdir aaa
+    6  2022-02-25 19:09:41 cd aaa
+    7  2022-02-25 19:09:45 pwd
+    8  2022-02-25 19:09:51 cd ..
+    9  2022-02-25 19:09:57 pwd
+   10  2022-02-25 19:10:08 ls > file1
+   11  2022-02-25 19:10:19 cat file1
+   12  2022-02-25 19:10:35 less file1
+   13  2022-02-25 19:10:45 file *
+   14  2022-02-25 19:10:52 wc file1
+   15  2022-02-25 19:11:01 wc *
+   16  2022-02-25 19:11:14 grep lab file1
+   17  2022-02-25 19:11:30 cp file1 file2
+   18  2022-02-25 19:11:33 ls
+   19  2022-02-25 19:11:40 cd aaa
+   20  2022-02-25 19:11:53 cp ../file1 .
+   21  2022-02-25 19:11:58 ls
+   22  2022-02-25 19:12:08 mv file1 file2
+   23  2022-02-25 19:12:12 ls
+   24  2022-02-25 19:12:26 mv ../file1 .
+   25  2022-02-25 19:12:36 cd ..
+   26  2022-02-25 19:12:41 ls
+   27  2022-02-25 19:12:48 cd aaa
+   28  2022-02-25 19:12:50 ls
+   29  2022-02-25 19:13:08 cmp file1 file2
+   30  2022-02-25 19:13:17 ls > aaalist
+   31  2022-02-25 19:13:28 cmp file1 aaalist
+   32  2022-02-25 19:13:40 diff file1 aaalist
+   33  2022-02-25 19:13:53 rm -i file1
+   34  2022-02-25 19:14:01 ls
+   35  2022-02-25 19:14:05 ps u
+   36  2022-02-25 19:14:21 ps -l
+   37  2022-02-25 19:14:42 cd ../..
+   38  2022-02-25 19:14:49 pwd
+   39  2022-02-25 19:14:57 cd lab1b
+   40  2022-02-25 19:15:20 head lab1b.c
+   41  2022-02-25 19:15:33 head -20 lab1b.c
+   42  2022-02-25 19:15:40 q
+   43  2022-02-25 19:15:57 tail lab1b.c
+   44  2022-02-25 19:16:17 tail -20 lab1b.c
+   45  2022-02-25 19:16:23 q
+   46  2022-02-25 19:16:38 ls -al | less
+   47  2022-02-25 19:16:50 history
+]0;javierbriseno@ecs-pa-coding1:~/csc60/lab1b[javierbriseno@ecs-pa-coding1 lab1b]$ exit
+exit
+
+Script done on Fri 25 Feb 2022 07:16:56 PM PST

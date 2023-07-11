@@ -1,0 +1,14 @@
+Script started on Mon 31 Jan 2022 09:23:28 AM PST
+]0;javierbriseno@ecs-pa-coding1:~[?1034h[javierbriseno@ecs-pa-coding1 ~]$ cat .vimrc
+"Javier Briseno
+:set tabstop=4
+:set shiftwidth=4
+:set smartindent
+:set expandtab
+:set number
+:set backround=dark
+
+]0;javierbriseno@ecs-pa-coding1:~[javierbriseno@ecs-pa-coding1 ~]$ exit
+exit
+
+Script done on Mon 31 Jan 2022 09:23:48 AM PST
